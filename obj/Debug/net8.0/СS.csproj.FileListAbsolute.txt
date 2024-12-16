@@ -1,0 +1,42 @@
+C:\Users\Дмитро\Desktop\СS\bin\Debug\net8.0\СS.exe
+C:\Users\Дмитро\Desktop\СS\bin\Debug\net8.0\СS.deps.json
+C:\Users\Дмитро\Desktop\СS\bin\Debug\net8.0\СS.runtimeconfig.json
+C:\Users\Дмитро\Desktop\СS\bin\Debug\net8.0\СS.dll
+C:\Users\Дмитро\Desktop\СS\bin\Debug\net8.0\СS.pdb
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.AssemblyInfo.cs
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.dll
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\refint\СS.dll
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.pdb
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\СS.genruntimeconfig.cache
+C:\Users\Дмитро\Desktop\СS\obj\Debug\net8.0\ref\СS.dll
+C:\Users\Дмитро\Desktop\Нова папка (2)\bin\Debug\net8.0\СS.exe
+C:\Users\Дмитро\Desktop\Нова папка (2)\bin\Debug\net8.0\СS.deps.json
+C:\Users\Дмитро\Desktop\Нова папка (2)\bin\Debug\net8.0\СS.runtimeconfig.json
+C:\Users\Дмитро\Desktop\Нова папка (2)\bin\Debug\net8.0\СS.dll
+C:\Users\Дмитро\Desktop\Нова папка (2)\bin\Debug\net8.0\СS.pdb
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.AssemblyInfo.cs
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.dll
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\refint\СS.dll
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.pdb
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\СS.genruntimeconfig.cache
+C:\Users\Дмитро\Desktop\Нова папка (2)\obj\Debug\net8.0\ref\СS.dll
+C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.exe
+C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.dll
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.AssemblyInfoInputs.cache
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.AssemblyInfo.cs
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.csproj.CoreCompileInputs.cache
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.dll
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\refint\СS.dll
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.pdb
+C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.deps.json
+C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.runtimeconfig.json
+C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.pdb
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.genruntimeconfig.cache
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\ref\СS.dll
