@@ -15,7 +15,7 @@ namespace game.Commands
 
         public void Execute()
         {
-            Console.WriteLine("  == Creating a New Account == ");
+            Console.WriteLine("  == Creating new Account == ");
 
             string userName;
             do
@@ -23,16 +23,16 @@ namespace game.Commands
                 Console.Write("Enter username: ");
                 userName = Console.ReadLine();
 
-                if (string.IsNullOrWhiteSpace(userName) || userName.Length < 1)
+                if (string.IsNullOrWhiteSpace(userName))
                 {
                     Console.WriteLine("Error: Username must be at least 1 character long.");
                 }
                 else if (_playerService.ReadAccountById(userName) != null)
                 {
                     Console.WriteLine("Error: This username is already taken. Please choose another.");
-                    userName = null; 
+                    userName = null;
                 }
-            } while (string.IsNullOrWhiteSpace(userName) || userName == null);
+            } while (string.IsNullOrWhiteSpace(userName));
 
             string password;
             do
@@ -40,11 +40,12 @@ namespace game.Commands
                 Console.Write("Enter password (at least 3 characters): ");
                 password = Console.ReadLine();
 
-                if (string.IsNullOrWhiteSpace(password) || password.Length < 3)
+                if (password?.Length < 3)
                 {
                     Console.WriteLine("Error: Password must be at least 3 characters long.");
                 }
-            } while (string.IsNullOrWhiteSpace(password) || password.Length < 3);
+            } while (password?.Length < 3);
+
 
             BaseAccount account = new StandardAccount(userName, password);
             _playerService.CreateAccount(account);
