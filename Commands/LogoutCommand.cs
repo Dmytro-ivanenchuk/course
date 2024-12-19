@@ -1,7 +1,6 @@
 using game.Core;
 using game.Interface;
 
-
 namespace game.Commands
 {
     class LogoutCommand : ICommand

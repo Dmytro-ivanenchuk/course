@@ -1,4 +1,3 @@
-
 namespace game.Models
 {
     abstract class BaseGame
