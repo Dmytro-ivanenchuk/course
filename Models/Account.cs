@@ -36,9 +36,9 @@ namespace game.Models
         public abstract void LoseGame(BaseGame game, string opponentName);
         public abstract void DrawGame(BaseGame game, string opponentName);
 
-        public IEnumerable<Game> GetGameHistory()
+        public List<Game> GetGameHistory()
         {
-            return gameHistory.AsReadOnly();
+            return new List<Game>(gameHistory);
         }
 
         protected void RecordGame(string opponentName, string result, int rating, string gameType)
