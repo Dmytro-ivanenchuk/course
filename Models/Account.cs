@@ -3,7 +3,6 @@ using game.Commands;
 using game.Data;
 using game.Interface;
 using game.Services;
-using game.Models;
 
 namespace game.Models
 {
@@ -37,22 +36,9 @@ namespace game.Models
         public abstract void LoseGame(BaseGame game, string opponentName);
         public abstract void DrawGame(BaseGame game, string opponentName);
 
-        public void GetStats()
+        public IEnumerable<Game> GetGameHistory()
         {
-            Console.WriteLine();
-            Console.WriteLine($"Player: {UserName}, Current Rating: {CurrentRating}, Games Played: {GamesCount}");
-            if(GamesCount > 0)
-            {
-                Console.WriteLine("---------------------------------------------------------------------");
-                Console.WriteLine("Index | Opponent     | Result | Rating | Current | GameId | Game Type");
-                Console.WriteLine("---------------------------------------------------------------------");
-            }
-
-            for (int i = 0; i < gameHistory.Count; i++)
-            {
-                Game game = gameHistory[i];
-                Console.WriteLine($"{i + 1,-5} | {game.OpponentName,-12} | {game.Result,-6} | {game.Rating,-6} | {game.CurrentRating, -7} | {game.GameId, -6} | {game.GameType}");
-            }       
+            return gameHistory.AsReadOnly();
         }
 
         protected void RecordGame(string opponentName, string result, int rating, string gameType)
