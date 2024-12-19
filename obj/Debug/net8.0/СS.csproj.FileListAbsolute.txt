@@ -40,3 +40,4 @@ C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.runtimeconfig.json
 C:\Users\Дмитро\Desktop\Course\bin\Debug\net8.0\СS.pdb
 C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.genruntimeconfig.cache
 C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\ref\СS.dll
+C:\Users\Дмитро\Desktop\Course\obj\Debug\net8.0\СS.sourcelink.json

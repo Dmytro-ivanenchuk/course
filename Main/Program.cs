@@ -3,6 +3,7 @@ using game.Core;
 using game.Data;
 using game.Models;
 using game.Services;
+using game.UI;
 
 class Program
 {
@@ -24,41 +25,8 @@ class Program
         commandManager.RegisterCommand(new PlayGameCommand(gameManager, playerService, sessionManager));
         commandManager.RegisterCommand(new LogoutCommand(sessionManager));
 
-        while (true)
-        {
-            Console.Clear();
-
-            bool isLoggedIn = sessionManager.IsLoggedIn();
-
-            if (!isLoggedIn)
-            {
-                Console.WriteLine("Welcome! Please choose an option:");
-            }
-            else
-            {
-                Console.WriteLine($"Welcome back, {sessionManager.GetCurrentAccount().UserName}! Please choose an option:");
-            }
-
-            commandManager.ShowMenu(isLoggedIn);
-
-            Console.Write("Select an option: ");
-            if (int.TryParse(Console.ReadLine(), out int commandIndex))
-            {
-                if (commandIndex == 0)
-                {
-                    Console.WriteLine("Exiting the program...");
-                    break;
-                }
-
-                Console.Clear();
-                commandManager.ExecuteCommand(commandIndex, isLoggedIn);
-            }
-            else
-            {
-                Console.WriteLine("Invalid input. Please enter a number.");
-                Console.ReadLine();
-            }
-        }
+        UIManager uiManager = new UIManager(commandManager, sessionManager);
+        uiManager.Run();
     }
 }
 
